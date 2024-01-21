@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+p {
+    margin: 0;
+}
+
+@mixin flex-gorizontal() {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin size() {
+    width: 100px;
+    height: 100px;
+}
